@@ -1,0 +1,123 @@
+/*Initalize Variables No Adjustments*/
+:root {
+    --blur:0px;
+    --contrast:100%;
+    --brightness:100%;
+    --grayscale:0%;
+    --huerotate:0deg;
+    --saturate:100%;
+    --sepia:0%;
+}
+.all-blur-0{--blur:0px;}
+.all-blur-1{--blur:1px;}
+.all-blur-2{--blur:3px;}
+.all-blur-3{--blur:5px;}
+.all-blur-4{--blur:7px;}
+.all-blur-5{--blur:9px;}
+.all-blur-6{--blur:11px;}
+.all-blur-7{--blur:13px;}
+.all-blur-8{--blur:15px;}
+.all-blur-9{--blur:17px;}
+.all-blur-10{--blur:19px;}
+
+.all-contrast-0{--contrast:1;}
+.all-contrast-1{--contrast:1.1;}
+.all-contrast-2{--contrast:1.2;}
+.all-contrast-3{--contrast:1.3;}
+.all-contrast-4{--contrast:1.4;}
+.all-contrast-5{--contrast:1.5;}
+.all-contrast-6{--contrast:1.6;}
+.all-contrast-7{--contrast:1.7;}
+.all-contrast-8{--contrast:1.8;}
+.all-contrast-9{--contrast:1.9;}
+.all-contrast-10{--contrast:2;}
+
+.all-brightness-1{--brightness:1.1;}
+.all-brightness-2{--brightness:1.2;}
+.all-brightness-3{--brightness:1.3;}
+.all-brightness-4{--brightness:1.4;}
+.all-brightness-5{--brightness:1.5;}
+.all-brightness-6{--brightness:1.6;}
+.all-brightness-7{--brightness:1.7;}
+.all-brightness-8{--brightness:1.8;}
+.all-brightness-9{--brightness:1.9;}
+.all-brightness-10{--brightness:2;}
+
+.all-grayscale-0{--grayscale:0;}
+.all-grayscale-1{--grayscale:0.1;}
+.all-grayscale-2{--grayscale:0.2;}
+.all-grayscale-3{--grayscale:0.3;}
+.all-grayscale-4{--grayscale:0.4;}
+.all-grayscale-5{--grayscale:0.5;}
+.all-grayscale-6{--grayscale:0.6;}
+.all-grayscale-7{--grayscale:0.7;}
+.all-grayscale-8{--grayscale:0.8;}
+.all-grayscale-9{--grayscale:0.9;}
+.all-grayscale-10{--grayscale:1;}
+
+.all-huerotate-0{--huerotate:0;}
+.all-huerotate-1{--huerotate:10deg;}
+.all-huerotate-2{--huerotate:20deg;}
+.all-huerotate-3{--huerotate:30deg;}
+.all-huerotate-4{--huerotate:40deg;}
+.all-huerotate-5{--huerotate:50deg;}
+.all-huerotate-6{--huerotate:60deg;}
+.all-huerotate-7{--huerotate:70deg;}
+.all-huerotate-8{--huerotate:80deg;}
+.all-huerotate-9{--huerotate:90deg;}
+.all-huerotate-10{--huerotate:100deg;}
+.all-huerotate-11{--huerotate:110deg;}
+.all-huerotate-12{--huerotate:120deg;}
+.all-huerotate-13{--huerotate:130deg;}
+.all-huerotate-14{--huerotate:140deg;}
+.all-huerotate-15{--huerotate:150deg;}
+.all-huerotate-16{--huerotate:160deg;}
+.all-huerotate-17{--huerotate:170deg;}
+.all-huerotate-18{--huerotate:180deg;}
+.all-huerotate-19{--huerotate:190deg;}
+.all-huerotate-20{--huerotate:200deg;}
+.all-huerotate-21{--huerotate:210deg;}
+.all-huerotate-22{--huerotate:220deg;}
+.all-huerotate-23{--huerotate:230deg;}
+.all-huerotate-24{--huerotate:240deg;}
+.all-huerotate-25{--huerotate:250deg;}
+.all-huerotate-26{--huerotate:260deg;}
+.all-huerotate-27{--huerotate:270deg;}
+.all-huerotate-28{--huerotate:280deg;}
+.all-huerotate-29{--huerotate:290deg;}
+.all-huerotate-30{--huerotate:300deg;}
+.all-huerotate-31{--huerotate:310deg;}
+.all-huerotate-32{--huerotate:320deg;}
+.all-huerotate-33{--huerotate:330deg;}
+.all-huerotate-34{--huerotate:340deg;}
+.all-huerotate-35{--huerotate:350deg;}
+.all-huerotate-36{--huerotate:360deg;}
+
+.all-saturate-0{--saturate:1;}
+.all-saturate-1{--saturate:1.1;}
+.all-saturate-2{--saturate:1.2;}
+.all-saturate-3{--saturate:1.3;}
+.all-saturate-4{--saturate:1.4;}
+.all-saturate-5{--saturate:1.5;}
+.all-saturate-6{--saturate:1.6;}
+.all-saturate-7{--saturate:1.7;}
+.all-saturate-8{--saturate:1.8;}
+.all-saturate-9{--saturate:1.9;}
+.all-saturate-10{--saturate:2;}
+
+.all-sepia-0{--sepia:0;}
+.all-sepia-1{--sepia:0.1;}
+.all-sepia-2{--sepia:0.2;}
+.all-sepia-3{--sepia:0.3;}
+.all-sepia-4{--sepia:0.4;}
+.all-sepia-5{--sepia:0.5;}
+.all-sepia-6{--sepia:0.6;}
+.all-sepia-7{--sepia:0.7;}
+.all-sepia-8{--sepia:0.8;}
+.all-sepia-9{--sepia:0.9;}
+.all-sepia-10{--sepia:1;}
+
+/** all */
+.apply-filter{
+    filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia)); 
+}

@@ -1,0 +1,140 @@
+/** all-row */
+.all-item-gzi-0 {grid-gap:var(--gzy-step-0);}
+.all-item-gzi-1 {grid-gap:var(--gzy-step-1);} 
+.all-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.all-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.all-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.all-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.all-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.all-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.all-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.all-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.all-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.all-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.all-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.all-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.all-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.all-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.all-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.all-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.all-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.all-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.all-item-gzi-20 {grid-gap:var(--gzy-step-20);} 
+/** xs-row */
+@media screen and (max-width:640px){  
+.xs-item-gzi-0 {grid-gap:var(--gzy-step-0);}    
+.xs-item-gzi-1 {grid-gap:var(--gzy-step-1);} 
+.xs-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.xs-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.xs-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.xs-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.xs-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.xs-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.xs-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.xs-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.xs-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.xs-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.xs-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.xs-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.xs-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.xs-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.xs-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.xs-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.xs-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.xs-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.xs-item-gzi-20 {grid-gap:var(--gzy-step-20);} 
+}
+/** s-row */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-item-gzi-0 {grid-gap:var(--gzy-step-0);}    
+.s-item-gzi-1 {grid-gap:var(--gzy-step-1);} 
+.s-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.s-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.s-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.s-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.s-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.s-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.s-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.s-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.s-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.s-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.s-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.s-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.s-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.s-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.s-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.s-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.s-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.s-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.s-item-gzi-20 {grid-gap:var(--gzy-step-20);} 
+}
+/** m-row */
+@media screen and (min-width:769px) and (max-width:1024px){ 
+.m-item-gzi-0 {grid-gap:var(--gzy-step-0);}    
+.m-item-gzi-1 {grid-gap:var(--gzy-step-1);} 
+.m-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.m-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.m-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.m-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.m-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.m-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.m-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.m-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.m-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.m-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.m-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.m-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.m-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.m-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.m-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.m-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.m-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.m-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.m-item-gzi-20 {grid-gap:var(--gzy-step-20);} 
+}
+/** l-row */
+@media screen and (min-width:1025px) and (max-width:1280px){ 
+.l-item-gzi-0 {grid-gap:var(--gzy-step-0);}    
+.l-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.l-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.l-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.l-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.l-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.l-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.l-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.l-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.l-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.l-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.l-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.l-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.l-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.l-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.l-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.l-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.l-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.l-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.l-item-gzi-20 {grid-gap:var(--gzy-step-20);}  
+}
+/** xl-row */
+@media screen and (min-width:1281px){  
+.xl-item-gzi-0 {grid-gap:var(--gzy-step-0);}        
+.xl-item-gzi-2 {grid-gap:var(--gzy-step-2);} 
+.xl-item-gzi-3 {grid-gap:var(--gzy-step-3);} 
+.xl-item-gzi-4 {grid-gap:var(--gzy-step-4);} 
+.xl-item-gzi-5 {grid-gap:var(--gzy-step-5);} 
+.xl-item-gzi-6 {grid-gap:var(--gzy-step-6);} 
+.xl-item-gzi-7 {grid-gap:var(--gzy-step-7);} 
+.xl-item-gzi-8 {grid-gap:var(--gzy-step-8);} 
+.xl-item-gzi-9 {grid-gap:var(--gzy-step-9);} 
+.xl-item-gzi-10 {grid-gap:var(--gzy-step-10);} 
+.xl-item-gzi-11 {grid-gap:var(--gzy-step-11);} 
+.xl-item-gzi-12 {grid-gap:var(--gzy-step-12);} 
+.xl-item-gzi-13 {grid-gap:var(--gzy-step-13);} 
+.xl-item-gzi-14 {grid-gap:var(--gzy-step-14);} 
+.xl-item-gzi-15 {grid-gap:var(--gzy-step-15);} 
+.xl-item-gzi-16 {grid-gap:var(--gzy-step-16);} 
+.xl-item-gzi-17 {grid-gap:var(--gzy-step-17);} 
+.xl-item-gzi-18 {grid-gap:var(--gzy-step-18);} 
+.xl-item-gzi-19 {grid-gap:var(--gzy-step-19);} 
+.xl-item-gzi-20 {grid-gap:var(--gzy-step-20);} 
+}

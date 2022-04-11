@@ -1,0 +1,99 @@
+/** all */
+.all-cols-fr-0 {display:initial;}
+.all-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr));}
+.all-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr));}
+.all-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr));}
+.all-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr));}
+.all-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr));}
+.all-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr));}
+.all-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr));}
+.all-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr));}
+.all-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr));}
+.all-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr));}
+.all-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr));}
+.all-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr));}
+
+/** xs */
+@media screen and (max-width:640px){  
+.xs-cols-fr-0 {grid-template-columns: repeat(0, minmax(0,0fr))!important;}
+.xs-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr))!important;}
+.xs-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr))!important;}
+.xs-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr))!important;}
+.xs-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr))!important;}
+.xs-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr))!important;}
+.xs-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr))!important;}
+.xs-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr))!important;}
+.xs-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr))!important;}
+.xs-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr))!important;}
+.xs-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr))!important;}
+.xs-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr))!important;}
+.xs-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr))!important;}
+
+}
+/** s */
+@media screen and (min-width:641px) and (max-width:768px){
+.s-cols-fr-0 {grid-template-columns: repeat(0, minmax(0,0fr))!important;}
+.s-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr))!important;}
+.s-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr))!important;}
+.s-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr))!important;}
+.s-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr))!important;}
+.s-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr))!important;}
+.s-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr))!important;}
+.s-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr))!important;}
+.s-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr))!important;}
+.s-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr))!important;}
+.s-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr))!important;}
+.s-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr))!important;}
+.s-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr))!important;}
+
+}
+/** m */
+@media screen and (min-width:769px) and (max-width:1024px){
+.m-cols-fr-0 {grid-template-columns: repeat(0, minmax(0,0fr))!important;}
+.m-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr))!important;}
+.m-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr))!important;}
+.m-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr))!important;}
+.m-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr))!important;}
+.m-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr))!important;}
+.m-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr))!important;}
+.m-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr))!important;}
+.m-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr))!important;}
+.m-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr))!important;}
+.m-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr))!important;}
+.m-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr))!important;}
+.m-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr))!important;}
+
+}
+/** l */
+@media screen and (min-width:1025px) and (max-width:1280px){  
+.l-cols-fr-0 {grid-template-columns: repeat(0, minmax(0,0fr))!important;}
+.l-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr))!important;}
+.l-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr))!important;}
+.l-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr))!important;}
+.l-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr))!important;}
+.l-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr))!important;}
+.l-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr))!important;}
+.l-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr))!important;}
+.l-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr))!important;}
+.l-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr))!important;}
+.l-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr))!important;}
+.l-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr))!important;}
+.l-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr))!important;}
+}
+/** xl */
+@media screen and (min-width:1281px){  
+.xl-cols-fr-0 {grid-template-columns: repeat(0, minmax(0,0fr))!important;}
+.xl-cols-fr-1 {grid-template-columns: repeat(1, minmax(0,1fr))!important;}
+.xl-cols-fr-2 {grid-template-columns: repeat(2, minmax(0,2fr))!important;}
+.xl-cols-fr-3 {grid-template-columns: repeat(3, minmax(0,3fr))!important;}
+.xl-cols-fr-4 {grid-template-columns: repeat(4, minmax(0,4fr))!important;}
+.xl-cols-fr-5 {grid-template-columns: repeat(5, minmax(0,5fr))!important;}
+.xl-cols-fr-6 {grid-template-columns: repeat(6, minmax(0,6fr))!important;}
+.xl-cols-fr-7 {grid-template-columns: repeat(7, minmax(0,7fr))!important;}
+.xl-cols-fr-8 {grid-template-columns: repeat(8, minmax(0,8fr))!important;}
+.xl-cols-fr-9 {grid-template-columns: repeat(9, minmax(0,9fr))!important;}
+.xl-cols-fr-10 {grid-template-columns: repeat(10, minmax(0,10fr))!important;}
+.xl-cols-fr-11 {grid-template-columns: repeat(11, minmax(0,11fr))!important;}
+.xl-cols-fr-12 {grid-template-columns: repeat(12, minmax(0,12fr))!important;}
+
+}

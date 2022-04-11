@@ -1,0 +1,8 @@
+/** all */
+.all-item-ac-start {align-items:start;}
+.all-item-ac-center {align-items:center;}
+.all-item-ac-end {align-items:end;}
+.all-item-ac-between {align-items:space-between;}
+.all-item-ac-around {align-items:space-around;}
+.all-item-ac-evenly {align-items:space-evenly;}
+.all-item-ac-stretch {align-items:stretch;}

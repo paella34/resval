@@ -1,0 +1,8 @@
+/** all */
+.all-grid-ai-start > div {align-items:start;}
+.all-grid-ai-center > div {align-items:center;}
+.all-grid-ai-end > div {align-items:end;}
+.all-grid-ai-between > div {align-items:space-between;}
+.all-grid-ai-around > div {align-items:space-around;}
+.all-grid-ai-evenly > div {align-items:space-evenly;}
+.all-grid-ai-stretch > div {align-items:stretch;}

@@ -1,0 +1,8 @@
+/** all */
+.all-item-jc-start {justify-items:start;}
+.all-item-jc-center {justify-items:center;}
+.all-item-jc-end {justify-items:end;}
+.all-item-jc-between {justify-items:space-between;}
+.all-item-jc-around {justify-items:space-around;}
+.all-item-jc-evenly {justify-items:space-evenly;}
+.all-item-jc-stretch {justify-items:stretch;}

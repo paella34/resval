@@ -1,0 +1,141 @@
+/*Initalize Variables No Adjustments*/
+:root {
+    --blur:0px;
+    --contrast:100%;
+    --brightness:100%;
+    --grayscale:0%;
+    --huerotate:0deg;
+    --saturate:100%;
+    --sepia:0%;
+}
+/** all */
+.apply-box-filter{
+    backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    -webkit-backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    -moz-backdrop-filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) grayscale(var(--grayscale)) hue-rotate(var(--huerotate)) saturate(var(--saturate)) sepia(var(--sepia));
+}
+.all-box-blur-0{--blur:0px;}
+.all-box-blur-1{--blur:1px;}
+.all-box-blur-2{--blur:3px;}
+.all-box-blur-3{--blur:5px;}
+.all-box-blur-4{--blur:7px;}
+.all-box-blur-5{--blur:9px;}
+.all-box-blur-6{--blur:11px;}
+.all-box-blur-7{--blur:13px;}
+.all-box-blur-8{--blur:15px;}
+.all-box-blur-9{--blur:17px;}
+.all-box-blur-10{--blur:19px;}
+
+.all-box-contrast-0{--contrast:1;}
+.all-box-contrast-1{--contrast:1.1;}
+.all-box-contrast-2{--contrast:1.2;}
+.all-box-contrast-3{--contrast:1.3;}
+.all-box-contrast-4{--contrast:1.4;}
+.all-box-contrast-5{--contrast:1.5;}
+.all-box-contrast-6{--contrast:1.6;}
+.all-box-contrast-7{--contrast:1.7;}
+.all-box-contrast-8{--contrast:1.8;}
+.all-box-contrast-9{--contrast:1.9;}
+.all-box-contrast-10{--contrast:2;}
+
+.all-box-brightness-1{--brightness:1.1;}
+.all-box-brightness-2{--brightness:1.2;}
+.all-box-brightness-3{--brightness:1.3;}
+.all-box-brightness-4{--brightness:1.4;}
+.all-box-brightness-5{--brightness:1.5;}
+.all-box-brightness-6{--brightness:1.6;}
+.all-box-brightness-7{--brightness:1.7;}
+.all-box-brightness-8{--brightness:1.8;}
+.all-box-brightness-9{--brightness:1.9;}
+.all-box-brightness-10{--brightness:2;}
+
+.all-box-grayscale-0{--grayscale:0;}
+.all-box-grayscale-1{--grayscale:0.1;}
+.all-box-grayscale-2{--grayscale:0.2;}
+.all-box-grayscale-3{--grayscale:0.3;}
+.all-box-grayscale-4{--grayscale:0.4;}
+.all-box-grayscale-5{--grayscale:0.5;}
+.all-box-grayscale-6{--grayscale:0.6;}
+.all-box-grayscale-7{--grayscale:0.7;}
+.all-box-grayscale-8{--grayscale:0.8;}
+.all-box-grayscale-9{--grayscale:0.9;}
+.all-box-grayscale-10{--grayscale:1;}
+
+.all-box-huerotate-0{--huerotate:0;}
+.all-box-huerotate-1{--huerotate:10deg;}
+.all-box-huerotate-2{--huerotate:20deg;}
+.all-box-huerotate-3{--huerotate:30deg;}
+.all-box-huerotate-4{--huerotate:40deg;}
+.all-box-huerotate-5{--huerotate:50deg;}
+.all-box-huerotate-6{--huerotate:60deg;}
+.all-box-huerotate-7{--huerotate:70deg;}
+.all-box-huerotate-8{--huerotate:80deg;}
+.all-box-huerotate-9{--huerotate:90deg;}
+.all-box-huerotate-10{--huerotate:100deg;}
+.all-box-huerotate-11{--huerotate:110deg;}
+.all-box-huerotate-12{--huerotate:120deg;}
+.all-box-huerotate-13{--huerotate:130deg;}
+.all-box-huerotate-14{--huerotate:140deg;}
+.all-box-huerotate-15{--huerotate:150deg;}
+.all-box-huerotate-16{--huerotate:160deg;}
+.all-box-huerotate-17{--huerotate:170deg;}
+.all-box-huerotate-18{--huerotate:180deg;}
+.all-box-huerotate-19{--huerotate:190deg;}
+.all-box-huerotate-20{--huerotate:200deg;}
+.all-box-huerotate-21{--huerotate:210deg;}
+.all-box-huerotate-22{--huerotate:220deg;}
+.all-box-huerotate-23{--huerotate:230deg;}
+.all-box-huerotate-24{--huerotate:240deg;}
+.all-box-huerotate-25{--huerotate:250deg;}
+.all-box-huerotate-26{--huerotate:260deg;}
+.all-box-huerotate-27{--huerotate:270deg;}
+.all-box-huerotate-28{--huerotate:280deg;}
+.all-box-huerotate-29{--huerotate:290deg;}
+.all-box-huerotate-30{--huerotate:300deg;}
+.all-box-huerotate-31{--huerotate:310deg;}
+.all-box-huerotate-32{--huerotate:320deg;}
+.all-box-huerotate-33{--huerotate:330deg;}
+.all-box-huerotate-34{--huerotate:340deg;}
+.all-box-huerotate-35{--huerotate:350deg;}
+.all-box-huerotate-36{--huerotate:360deg;}
+
+.all-box-saturate-0{--saturate:1;}
+.all-box-saturate-1{--saturate:0.1;}
+.all-box-saturate-2{--saturate:0.2;}
+.all-box-saturate-3{--saturate:0.3;}
+.all-box-saturate-4{--saturate:0.4;}
+.all-box-saturate-5{--saturate:0.5;}
+.all-box-saturate-6{--saturate:0.6;}
+.all-box-saturate-7{--saturate:0.7;}
+.all-box-saturate-8{--saturate:0.8;}
+.all-box-saturate-9{--saturate:0.9;}
+.all-box-saturate-10{--saturate:1;}
+.all-box-saturate-11{--saturate:1.1;}
+.all-box-saturate-12{--saturate:1.2;}
+.all-box-saturate-13{--saturate:1.3;}
+.all-box-saturate-14{--saturate:1.4;}
+.all-box-saturate-15{--saturate:1.5;}
+.all-box-saturate-16{--saturate:1.6;}
+.all-box-saturate-17{--saturate:1.7;}
+.all-box-saturate-18{--saturate:1.8;}
+.all-box-saturate-19{--saturate:1.9;}
+.all-box-saturate-20{--saturate:2;}
+
+.all-box-sepia-0{--sepia:0;}
+.all-box-sepia-1{--sepia:0.1;}
+.all-box-sepia-2{--sepia:0.2;}
+.all-box-sepia-3{--sepia:0.3;}
+.all-box-sepia-4{--sepia:0.4;}
+.all-box-sepia-5{--sepia:0.5;}
+.all-box-sepia-6{--sepia:0.6;}
+.all-box-sepia-7{--sepia:0.7;}
+.all-box-sepia-8{--sepia:0.8;}
+.all-box-sepia-9{--sepia:0.9;}
+.all-box-sepia-10{--sepia:1;}
+
+/* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .apply-box-filter{
+    background-color: rgba(255, 255, 255, .8);
+  }
+}

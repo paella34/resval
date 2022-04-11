@@ -1,0 +1,8 @@
+/** all */
+.all-grid-ji-start > div {justify-items:start;}
+.all-grid-ji-center > div {justify-items:center;}
+.all-grid-ji-end > div {justify-items:end;}
+.all-grid-ji-between > div {justify-items:space-between;}
+.all-grid-ji-around > div {justify-items:space-around;}
+.all-grid-ji-evenly > div {justify-items:space-evenly;}
+.all-grid-ji-stretch > div {justify-items:stretch;}

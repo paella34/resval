@@ -1,0 +1,10 @@
+.all-object-fit-contain{object-fit:contain;}
+.all-object-fit-cover{object-fit:cover;}
+.all-object-fit-fill{object-fit:fill;}
+.all-object-fit-none{object-fit:none;}
+.all-object-fit-scale-down{object-fit:scale-down;}
+.all-object-position-top{object-position:top;}
+.all-object-position-left{object-position:left;}
+.all-object-position-bottom{object-position:bottom;}
+.all-object-position-right{object-position:right;}
+.all-object-position-center{object-position:center;}
